@@ -1,0 +1,218 @@
+[
+  {
+    "name": "Chicago",
+    "fullAddress": "5033 North Elston Avenue, Chicago, IL 60630",
+    "address1": "5033 North Elston Avenue",
+    "zip": "60630",
+    "state": "IL",
+    "city": "Chicago"
+  },
+  {
+    "name": "Hawaii",
+    "fullAddress": "94-050 Farrington Hwy, Waipahu, HI 96797",
+    "address1": "94-050 Farrington Hwy",
+    "zip": "96797",
+    "state": "HI",
+    "city": "Waipahu"
+  },
+  {
+    "name": "Carson City",
+    "fullAddress": "131 W. Carson Street, Carson, CA 90745",
+    "address1": "131 W. Carson Street",
+    "zip": "90745",
+    "state": "CA",
+    "city": "Carson"
+  },
+  {
+    "name": "Cerritos",
+    "fullAddress": "17202 Norwalk Boulevard, Cerritos, CA 90703",
+    "address1": "17202 Norwalk Boulevard",
+    "zip": "90703",
+    "state": "CA",
+    "city": "Cerritos"
+  },
+  {
+    "name": "Eagle Rock",
+    "fullAddress": "2700 Colorado Blvd, Los Angeles, CA 90041",
+    "address1": "2700 Colorado Blvd",
+    "zip": "90041",
+    "state": "CA",
+    "city": "Los Angeles"
+  },
+  {
+    "name": "Irvine",
+    "fullAddress": "2180 Barranca Pkwy, Irvine, CA 92606",
+    "address1": "2180 Barranca Pkwy",
+    "zip": "92606",
+    "state": "CA",
+    "city": "Irvine"
+  },
+  {
+    "name": "Los Angeles",
+    "fullAddress": "134-140 S. Vermont Avenue, Los Angeles, CA 90004",
+    "address1": "134-140 S. Vermont Avenue",
+    "zip": "90004",
+    "state": "CA",
+    "city": "Los Angeles"
+  },
+  {
+    "name": "North Hills",
+    "fullAddress": "16130 Nordhoff Street, North Hills, CA 91343",
+    "address1": "16130 Nordhoff Street",
+    "zip": "91343",
+    "state": "CA",
+    "city": "North Hills"
+  },
+  {
+    "name": "Panorama City",
+    "fullAddress": "8231 Woodman Avenue, Panorama, CA 91402",
+    "address1": "8231 Woodman Avenue",
+    "zip": "91402",
+    "state": "CA",
+    "city": "Panorama"
+  },
+  {
+    "name": "Rancho Cacumonga",
+    "fullAddress": "11098 Foothill Boulevard, Rancho Cucamonga, CA 91730",
+    "address1": "11098 Foothill Boulevard",
+    "zip": "91730",
+    "state": "CA",
+    "city": "Rancho Cucamonga"
+  },
+  {
+    "name": "West Covina",
+    "fullAddress": "1525 Amar Road West, Covina, CA 91792",
+    "address1": "1525 Amar Road West",
+    "zip": "91792",
+    "state": "CA",
+    "city": "Covina"
+  },
+  {
+    "name": "Concord",
+    "fullAddress": "2030 Diamond Blvd, Concord, CA 94520",
+    "address1": "2030 Diamond Blvd",
+    "zip": "94520",
+    "state": "CA",
+    "city": "Concord"
+  },
+  {
+    "name": "Hayward",
+    "fullAddress": "24536 Hesperian Blvd, Hayward, CA 94545",
+    "address1": "24536 Hesperian Blvd",
+    "zip": "94545",
+    "state": "CA",
+    "city": "Hayward"
+  },
+  {
+    "name": "Milpitas",
+    "fullAddress": "1535 Landess Avenue, Milpitas, CA 95035",
+    "address1": "1535 Landess Avenue",
+    "zip": "95035",
+    "state": "CA",
+    "city": "Milpitas"
+  },
+  {
+    "name": "Sacramento",
+    "fullAddress": "6051 Mack Rd, Sacramento, CA 95803",
+    "address1": "6051 Mack Rd",
+    "zip": "95803",
+    "state": "CA",
+    "city": "Sacramento"
+  },
+  {
+    "name": "South San Francisco",
+    "fullAddress": "3573 Callan Blvd, South San Francisco, CA 94080",
+    "address1": "3573 Callan Blvd",
+    "zip": "94080",
+    "state": "CA",
+    "city": "South San Francisco"
+  },
+  {
+    "name": "Union City",
+    "fullAddress": "31840 Alvarado Blvd, Union City, CA 94587",
+    "address1": "31840 Alvarado Blvd",
+    "zip": "94587",
+    "state": "CA",
+    "city": "Union City"
+  },
+  {
+    "name": "Vallejo",
+    "fullAddress": "3495 Sonoma Blvd, Vallejo, CA 94590",
+    "address1": "3495 Sonoma Blvd",
+    "zip": "94590",
+    "state": "CA",
+    "city": "Vallejo"
+  },
+  {
+    "name": "Arroyo",
+    "fullAddress": "7230-C Arroyo Crossing Pkwy, Las Vegas, NV 89113",
+    "address1": "7230-C Arroyo Crossing Pkwy",
+    "zip": "89113",
+    "state": "NV",
+    "city": "Las Vegas"
+  },
+  {
+    "name": "Las Vegas",
+    "fullAddress": "3890 S. Maryland Parkway, Las Vegas, NV 89119",
+    "address1": "3890 S. Maryland Parkway",
+    "zip": "89119",
+    "state": "NV",
+    "city": "Las Vegas"
+  },
+  {
+    "name": "North Las Vegas",
+    "fullAddress": "6435 N Decatur Blvd, Las Vegas, NV 89131",
+    "address1": "6435 N Decatur Blvd",
+    "zip": "89131",
+    "state": "NV",
+    "city": "Las Vegas"
+  },
+  {
+    "name": "Henderson",
+    "fullAddress": "10405 S. Eastern Ave, Henderson, NV 89113",
+    "address1": "10405 S. Eastern Ave",
+    "zip": "89113",
+    "state": "NV",
+    "city": "Henderson"
+  },
+  {
+    "name": "Chula Vista",
+    "fullAddress": "285 E. Orange Avenue, Chula Vista, CA 91911",
+    "address1": "285 E. Orange Avenue",
+    "zip": "91911",
+    "state": "CA",
+    "city": "Chula Vista"
+  },
+  {
+    "name": "Mira Mesa",
+    "fullAddress": "8955 Mira Mesa Blvd, Mira Mesa, CA 92126",
+    "address1": "8955 Mira Mesa Blvd",
+    "zip": "92126",
+    "state": "CA",
+    "city": "Mira Mesa"
+  },
+  {
+    "name": "Manila Seafood Oriental Market",
+    "fullAddress": "2220 E. Plaza Blvd, National City, CA 91950",
+    "address1": "2220 E. Plaza Blvd",
+    "zip": "91950",
+    "state": "CA",
+    "city": "National City"
+  },
+  {
+    "name": "National City",
+    "fullAddress": "1420 E. Plaza Blvd, National City, CA 91950",
+    "address1": "1420 E. Plaza Blvd",
+    "zip": "91950",
+    "state": "CA",
+    "city": "National City"
+  },
+  {
+    "name": "Tukwila",
+    "fullAddress": "1368 Southcenter Mall, Tukwila, WA 98188",
+    "address1": "1368 Southcenter Mall",
+    "zip": "98188",
+    "state": "WA",
+    "city": "Tukwila"
+  }
+]
