@@ -125,6 +125,46 @@
           }
         }
       }
+    },
+    "d3-main": {
+      "projectType": "library",
+      "root": "projects/d3-main",
+      "sourceRoot": "projects/d3-main/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "tsConfig": "projects/d3-main/tsconfig.lib.json",
+            "project": "projects/d3-main/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/d3-main/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/d3-main/src/test.ts",
+            "tsConfig": "projects/d3-main/tsconfig.spec.json",
+            "karmaConfig": "projects/d3-main/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/d3-main/tsconfig.lib.json",
+              "projects/d3-main/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "defaultProject": "moveto"
