@@ -3,7 +3,8 @@ import { Component } from "@angular/core";
 @Component({
   template: `
     <div class="app-container">
-      <menu-bar></menu-bar>
+      <mt-menu-bar></mt-menu-bar>
+      <mt-map></mt-map>
     </div>
   `,
   styleUrls: ['./main.component.scss'],

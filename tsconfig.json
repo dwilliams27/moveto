@@ -23,6 +23,8 @@
     "target": "es2015",
     "module": "es2020",
     "types": ["cypress"],
+    "resolveJsonModule": true,
+    "strictPropertyInitialization": false,
     "lib": [
       "es2018",
       "dom"

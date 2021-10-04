@@ -1,13 +1,30 @@
 
-li {
-  display: inline;
-  width: 60px;
+.menu-bar-container {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #dddddd;
-  height: 100px;
+  overflow: hidden;
+  background-color: var(--teal);
+  width: 100%;
+}
+
+li h1 {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+h1 {
+  margin: 0;
+  font-size: 72px;
 }

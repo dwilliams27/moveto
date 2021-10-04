@@ -3,3 +3,22 @@ body {
   margin: 0px;
   background-color: #dddddd;
 }
+
+html, body {
+  height: 100%;
+}
+
+:root {
+  --teal-light: #b2d8d8;
+  --teal-lighter: #66b2b2;
+  --teal: #008080;
+  --teal-darker: #006666;
+  --teal-dark: #004c4c;
+
+  --gray-light: #c0c5ce;
+  --gray-lighter: #a7adba;
+  --gray: #65737e;
+  --gray-darker: #4f5b66;
+  --gray-dark: #343d46;
+}
+

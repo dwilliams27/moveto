@@ -47,3 +47,4 @@ Thumbs.db
 
 /cypress/fixtures
 /data/*/*.tmp.*
+/data/us-shape/
