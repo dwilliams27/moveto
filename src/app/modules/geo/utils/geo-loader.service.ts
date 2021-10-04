@@ -28,10 +28,10 @@ export class GeoLoaderService {
     } else {
       const result: MultiPolygonCoordinates = [];
       for(let i = 0; i < geodata.coordinates.length; i++) {
-        for(let i2 = 0; i2 < geodata.coordinates[i].length - 1; i2++) {
-          const normalizedData = this.normalizeCoordinates(geodata.coordinates[i][i2]);
-          const tempResult: [[number, number], [number, number]][] = [];
-          for(let i3 = 0; i3 < normalizedData.length; i3++) {
+        for(let i2 = 0; i2 < geodata.coordinates[i][0].length - 1; i2++) {
+          const normalizedData = this.normalizeCoordinates(geodata.coordinates[i][0]);
+          const tempResult = [];
+          for(let i3 = 0; i3 < normalizedData.length - 1; i3++) {
             tempResult.push([normalizedData[i3], normalizedData[i3 + 1]]);
           }
           result.push(tempResult);

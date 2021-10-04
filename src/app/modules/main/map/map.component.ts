@@ -20,10 +20,8 @@ export class MapComponent implements AfterViewInit {
   constructor(private _geoLoaderService: GeoLoaderService) {}
 
   ngAfterViewInit(): void {
-    console.log(this.myIdentifier.nativeElement.offsetWidth, this.myIdentifier.nativeElement.offsetHeight);
     const DC_GEO = this._geoLoaderService.getCoordDataPairwise(StateIndex.DC.id);
     const SVG = d3.select('div').append('svg').attr('width', this.myIdentifier.nativeElement.offsetWidth).attr('height', 1000);
-    console.log(DC_GEO.result);
     if(DC_GEO && DC_GEO.type === 'Polygon') {
       SVG.attr("class", "line")
         .selectAll("line").data(DC_GEO.result)
@@ -36,7 +34,7 @@ export class MapComponent implements AfterViewInit {
     }
 
     const CA_GEO = this._geoLoaderService.getCoordDataPairwise(StateIndex.CA.id);
-    console.log(CA_GEO)
+    const SVG2 = d3.select('div').append('svg').attr('width', this.myIdentifier.nativeElement.offsetWidth).attr('height', 1000);
     if(CA_GEO && CA_GEO.type === 'MultiPolygon') {
       for(let polygon of CA_GEO.result) {
         SVG.attr("class", "line")
@@ -51,4 +49,6 @@ export class MapComponent implements AfterViewInit {
      
     }
   }
+
+
 }
